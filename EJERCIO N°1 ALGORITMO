@@ -1,0 +1,11 @@
+ALGORITMO DE FACTURA DE ENERGIA ELECRICA
+
+1. INICIO.
+2. Determinar el consumo, costo_kwh, estrato, altitud, total, consumo basico, subsidio, contribucion como real.
+3. Determina el consumo básico según la altitud: 173 kWh para altitudes menores a 1000 metros y 130 kWh para altitudes mayores.
+4. Se calcula el total a pagar multiplicando el consumo por el costo unitario.
+Subsidios y Contribuciones: Según el estrato, se aplica un subsidio o una contribución: Estrato 1, 2 y 3 reciben subsidios que se restan del total, Estratos 5 y 6 tienen una contribución que se suma al total.
+5. Calcular el costo adicional basado en el consumo excedente,
+Sumar el costo adicional al total.
+6. Mostrar el total a pagar en pesos colombianos.
+7. FIN.
